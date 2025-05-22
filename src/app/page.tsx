@@ -1,8 +1,10 @@
 // src/app/page.tsx
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div>
+      <h1 className="text-8xl font-extrabold">
+        Hello <mark className="px-4 text-white dark:bg-red-500">World</mark>!!!</h1>
+    </div>
+
   )
 }
